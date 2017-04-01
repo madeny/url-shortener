@@ -10,7 +10,6 @@
 <li>
 <div class="thumb">
 <a href="#"><img src="images/article.jpg" alt=""></a>
-</div>
 <div class="text">
 <p class="color">Duis semper nuncid</p>
 <p>Semper nunc id metus sagittis nec ullamcorper justo qondimentum mattis.</p>
