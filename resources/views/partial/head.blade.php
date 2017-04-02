@@ -19,6 +19,10 @@
 <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
  
 <link href="css/parallax.css" rel="stylesheet" type="text/css"/>
+
+{{-- Hotjar tracking code here --}}
+@include('partial.hotjar')
+{{-- End hotjar  --}}
 </head>
 <body>
  
