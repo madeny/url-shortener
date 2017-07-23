@@ -31,12 +31,12 @@ Or manually edit your composer.json file:
 Config: .env to have this
 for bitly driver:
 
-URL_SHORTENER_BITLY_USERNAME=username
-URL_SHORTENER_BITLY_PASSWORD=password
+    URL_SHORTENER_BITLY_USERNAME=username
+    URL_SHORTENER_BITLY_PASSWORD=password
 
 for google driver:
 
-URL_SHORTENER_GOOGLE_API_KEY=apikey
+    URL_SHORTENER_GOOGLE_API_KEY=apikey
 
 
 
