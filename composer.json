@@ -40,5 +40,15 @@
     "minimum-stability": "dev",
     "scripts": {
         "test": "vendor/bin/phpunit"
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "madeny\\UrlShortener\\UrlShortenerServiceProvider"
+            ],
+            "aliases":{
+                "UrlShortener":"madeny\\UrlShortener\\Facades\\UrlShortener"
+            }
+        }
     }
 }
