@@ -4,7 +4,7 @@
 
 URL shortener package with Laravel Package Auto-Discovery.
 
-Madeny always learning . [madeny.com](http://madeny.com)
+Madeny always learning . [madeny.me](http://madeny.me)
 
 ## Laravel compatibility
 
