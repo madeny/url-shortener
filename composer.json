@@ -1,0 +1,44 @@
+{
+    "name": "madeny/url-shortener",
+    "description": "Url Shortener for Laravel 5 with support for Google and Bitly drivers.",
+    "keywords": [
+        "madeny",
+        "laravel",
+        "url",
+        "shortener",
+        "url short",
+        "url shortener"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "madeny",
+            "email": "info@madeny.com",
+            "homepage": "http://madeny.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "5.1.x|5.2.x|5.3.*",
+        "illuminate/config": "5.1.x|5.2.x|5.3.*",
+        "mremi/url-shortener": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "^5",
+        "orchestra/testbench": "3.1.x|3.2.x|3.3.x",
+        "mockery/mockery": "^0.9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "madeny\\UrlShortener\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "madeny\\UrlShortener\\Test\\": "tests"
+        }
+    },
+    "minimum-stability": "dev",
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
