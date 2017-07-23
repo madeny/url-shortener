@@ -1,13 +1,8 @@
 # Laravel 5.5 url shortener
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/madeny/url-shortener.svg?style=flat-square)](https://packagist.org/packages/madeny/url-shortener)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/madeny/url-shortener/master.svg?style=flat-square)](https://travis-ci.org/madeny/url-shortener)
-[![Total Downloads](https://img.shields.io/packagist/dt/madeny/url-shortener.svg?style=flat-square)](https://packagist.org/packages/madeny/url-shortener)
+## Smattering
 
-## Introduction
-
-URL shortener package that gives a convenient Laravel Facade for [mremi/UrlShortener](https://github.com/mremi/UrlShortener)
+URL shortener package with Laravel Package Auto-Discovery.
 
 Madeny always learning . [madeny.com](http://madeny.com)
 
