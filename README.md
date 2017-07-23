@@ -9,40 +9,36 @@
 
 URL shortener package that gives a convenient Laravel Facade for [mremi/UrlShortener](https://github.com/mremi/UrlShortener)
 
-madeny is a web development studio based in Madrid, Spain. You can learn more about us at [madeny.com](http://madeny.com)
+Madeny always learning . [madeny.com](http://madeny.com)
 
 ## Laravel compatibility
 
  Laravel  | translation
 :---------|:----------
- 5.1.x    | 1.0.x
- 5.2.x    | 1.0.1 and higher
+ 5.5.x    | 5.5.dev
 
 ## Installation and Setup
 
 Require through composer
 
-    composer require madeny/url-shortener 1.0.x
+    composer require madeny/url-shortener
 
 Or manually edit your composer.json file:
 
     "require": {
-        "madeny/url-shortener": "1.0.x"
+        "madeny/url-shortener": "1.0"
     }
+Config: .env to have this
+for bitly driver:
 
-In config/app.php, add the following entry to the end of the providers array:
+URL_SHORTENER_BITLY_USERNAME=username
+URL_SHORTENER_BITLY_PASSWORD=password
 
-    madeny\UrlShortener\UrlShortenerServiceProvider::class,
+for google driver:
 
-And the following alias:
+URL_SHORTENER_GOOGLE_API_KEY=apikey
 
-    'UrlShortener' => madeny\UrlShortener\Facades\UrlShortener::class,
 
-Publish the configuration file, the form view and the language entries:
-
-    php artisan vendor:publish --provider="madeny\UrlShortener\UrlShortenerServiceProvider"
-
-Check the config files for the environment variables you need to set for the selected driver.
 
 ## Usage
 
