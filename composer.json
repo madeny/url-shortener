@@ -18,8 +18,8 @@
         }
     ],
     "require": {
-        "illuminate/contracts": "5.5.x-dev as 5.5.*",
-        "illuminate/support": "5.5.x-dev as 5.5.*",
+        "illuminate/contracts": "5.*",
+        "illuminate/support": "5.*",
         "mremi/url-shortener": "^2.1"
     },
     "require-dev": {
