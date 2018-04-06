@@ -4,6 +4,14 @@
 
 URL shortener package with Laravel Package Auto-Discovery.
 
+Madeny always learning . [madeny.me](http://madeny.me)
+
+## Laravel compatibility
+
+ Laravel  | translation
+:---------|:----------
+ 5.5.x    | 5.5.dev
+
 ## Installation and Setup
 
 Require through composer
